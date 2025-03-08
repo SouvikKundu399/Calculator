@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#outer{
+    height: 748px;
+    width: 762px;
+    margin: auto;
+    margin-top: 1.78%;
+    border: green solid 10px;
+    border-radius: 9%;
+    padding: 41px 18px ;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+            
+}
+#screen{
+    width: 100%;
+    border: blue 5px solid;
+    height: 213px;
+    border-radius: 43px 43px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 0px 9px 5px 0px;
+    font-size: 66px;
+    
+}
+#keys{
+    height: 500px;
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.numbers{
+    height: 100%;
+    width: 489px;
+    background-color: rgb(31 28 28 / 86%);
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.operation{
+    height: 100%;
+    width: 224px;
+    background-color: rgb(31 28 28 / 86%);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+.numOp{
+    border: 3px green solid;
+    height: 121px;
+    width: 137px;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Op{
+    width: 89px;
+    height: 112px;
+    border-radius: 30px;
+    font-size: 50px;
+}
